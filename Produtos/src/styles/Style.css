@@ -15,13 +15,11 @@ body {
 
 .product {
     background-color: #ffffff;
+    display: grid;
     border: 1px solid #bbb;
     border-radius: 20px;
     padding: 20px;
     text-align: center;
-    align-items: left;
-    height: 80vh;
-    
 }
 
 .ProductTitle {
@@ -39,17 +37,11 @@ body {
     justify-content: center;
 }
 
-.PageTitle {
-    text-align: left;
-    color: #110C1F;
-    margin-bottom: 20px;
-}
-
 .PageIcon {
     width: 150px;
     height: 150px;
     margin: auto;
-    display: block; 
+    display: block;
 }
 
 .ProductPrice {
@@ -64,9 +56,14 @@ body {
     background-color: #110C1F;
     color: #fff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 10px;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px auto 0;
 }
